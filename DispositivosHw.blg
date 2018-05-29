@@ -1,0 +1,15 @@
+[0] Config.pm:302> INFO - This is Biber 2.11
+[0] Config.pm:305> INFO - Logfile is 'DispositivosHw.blg'
+[45] biber-darwin:313> INFO - === dom may 27, 2018, 13:40:12
+[71] Biber.pm:371> INFO - Reading 'DispositivosHw.bcf'
+[174] Biber.pm:854> INFO - Using all citekeys in bib section 0
+[189] Biber.pm:3976> INFO - Processing section 0
+[201] Biber.pm:4136> INFO - Looking for bibtex format file 'DispositivosHwReference.bib' for section 0
+[205] bibtex.pm:1500> INFO - LaTeX decoding ...
+[211] bibtex.pm:1316> INFO - Found BibTeX data source 'DispositivosHwReference.bib'
+[242] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[242] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[242] Biber.pm:3804> INFO - Sorting list 'ynt/global//global/global' of type 'entry' with template 'ynt' and locale 'en-US'
+[242] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[247] bbl.pm:617> INFO - Writing 'DispositivosHw.bbl' with encoding 'UTF-8'
+[248] bbl.pm:720> INFO - Output to DispositivosHw.bbl
