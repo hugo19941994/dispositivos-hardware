@@ -1,10 +1,13 @@
 \documentclass[twoside,twocolumn]{article}
 
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
 \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
 
 \linespread{1.05} % Line spacing - Palatino needs more space between lines
 
 \usepackage{enumitem} % Customized lists
+
 \setlist[itemize]{noitemsep} % Make itemize lists more compact
 
 \usepackage[
@@ -22,69 +25,51 @@ sorting=ynt
 \renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text
 
 \usepackage{titling} % Customizing the title section
-
 \usepackage{hyperref} % For hyperlinks in the PDF
-
 
 \setlength{\droptitle}{-4\baselineskip} % Move the title up
 
 \pretitle{\begin{center}\Huge\bfseries} % Article title formatting
 \posttitle{\end{center}} % Article title closing formatting
-\title{Mejora en los resultados de la utilizaci\'on de aplicaciones de Realidad Virtual a trav\'es de la preparaci\'on sensorial previa} % Article title
+\title{Mejora en los resultados de la utilización de aplicaciones de Realidad Virtual a través de la preparación sensorial previa} % Article title
 \author{%
 \textsc{Salguero, E. and Salamanca, I. and Ferrando, H.} \\% Your name
 \normalsize Universidad U-Tad \\ % Your institution
-%\normalsize \href{mailto:john@smith.com}{john@smith.com} % Your email address
-%\and % Uncomment if 2 authors are required, duplicate these 4 lines if more
-%\textsc{Jane Smith}\thanks{Corresponding author} \\[1ex] % Second author's name
-%\normalsize University of Utah \\ % Second author's institution
-%\normalsize \href{mailto:jane@smith.com}{jane@smith.com} % Second author's email address
 }
+
 \date{\today} % Leave empty to omit a date
 \renewcommand{\maketitlehookd}{%
+
 \begin{abstract}
-\noindent En la actualidad, el uso de la Realidad Virtual se ha extendido mucho y se est\'a utilizando de manera asidua tanto para ocio como para formaci\'on. Una cuenti\'on abierta sobre la Realidad Virtual y las aplicaciones utilizadas en cualquiera de sus vertientes (pedag\'ogica, l\'udica...) es si se podr\'ia mejorar la experiencia y los resultados obtenidos de alguna manera. En este art\'iculo exploramos un posible punto de partida en esta idea de mejorar los resultados utilizando como bases conocimientos ya documentados sobre la privaci\'on sensorial.
+    \noindent En la actualidad, el uso de la Realidad Virtual se ha extendido mucho y se está utilizando de manera asidua tanto para ocio como para formación. Una cuentión abierta sobre la Realidad Virtual y las aplicaciones utilizadas en cualquiera de sus vertientes (pedagógica, lúdica\ldots) es si se podría mejorar la experiencia y los resultados obtenidos de alguna manera. En este artículo exploramos un posible punto de partida en esta idea de mejorar los resultados utilizando como bases conocimientos ya documentados sobre la privación sensorial.
 \end{abstract}
 }
-
-
 
 \begin{document}
 \fancyhead{} % clear all header fields
 
-
-%\chead{Salguero, E. Salamanca, I. Ferrando, H. - M\'aster en Computaci\'on G\'afica y Simulaci\'on}
-
 \maketitle
 
-\section{Introduction}
+\section{Introducción}
+En este trabajo, nos planteamos si, de alguna manera, se puede conseguir que nuestro organismo esté más predispuesto a creer lo que sucede dentro de una aplicación de Realidad Virtual o si se puede conseguir aumentar la capacidad de aprendizaje de nuestro cerebro para que el uso de una experiencia de Realidad virtual destinada a formación sea más efectiva.\\
 
-En este trabajo, nos planteamos si, de alguna manera, se puede conseguir que nuestro organismo est\'e m\'as predispuesto a creer lo que sucede dentro de una aplicaci\'on de Realidad Virtual o si se puede conseguir aumentar la capacidad de aprendizaje de nuestro cerebro para que el uso de una experiencia de Realidad virtual destinada a formaci\'on sea m\'as efectiva.\\
+Sería algo similar (marcando mucho las diferencias) a las secuencias cinemáticas utilizadas en las introducciones de videojuegos. Estas intros incluyen entre sus fines el conseguir enganchar al jugador, es decir, intentan presentar un hilo argumental al jugador de la manera más atractiva posible para que cualquiera que empiece a jugar el videojuego esté
 
-Sería algo similar (marcando mucho las diferencias) a las secuencias cinem\'aticas utilizadas en las introducciones de videojuegos. Estas intros incluyen entre sus fines el conseguir enganchar al jugador, es decir, intentan presentar un hilo argumental al jugador de la manera m\'as atractiva posible para que cualquiera que empiece a jugar el videojuego est\'e
-
-Nuestra intenci\'on es analizar si esta idea de preparar al jugador tambi\'en se puede extender a la Realidad Virtual, pero en este caso, se tratar\'ia de predisponer a los sentidos de jugador para conseguir que la experiencia le parezca m\'as inmersiva y en caso de ser el objetivos, conseguir m\'as r\'apidamente los conocimientos perseguidos. 
+Nuestra intención es analizar si esta idea de preparar al jugador también se puede extender a la Realidad Virtual, pero en este caso, se trataría de predisponer a los sentidos de jugador para conseguir que la experiencia le parezca más inmersiva y en caso de ser el objetivos, conseguir más rápidamente los conocimientos perseguidos. 
 
 En \cite{PrivacionSensorial} 
 \noindent Torturas - lavados de cerebro empleados por China con prisioneros de guerra\\
 
-\noindent Posible predisponer al usuario para que aprenda de manera m\'as efectiva\\
-
-%\blindtext % Dummy text
-
-%\blindtext % Dummy text
-
-%------------------------------------------------
+\noindent Posible predisponer al usuario para que aprenda de manera más efectiva\\
 
 \section{Estado del Arte}
+En la actualidad, se han realizado multitud de estudios sobre los beneficios que está aportando la realidad virtual en el aprendizaje. En este trabajo, nosotros incluimos dos referencias que tratan sobre este tema.\\
 
-En la actualidad, se han realizado multitud de estudios sobre los beneficios que est\'a aportando la realidad virtual en el aprendizaje. En este trabajo, nosotros incluimos dos referencias que tratan sobre este tema.\\
+En \cite{ScienceSpace}, los autores hablan sobre la posibilidad de conseguir que estudiantes de instituto puedan comprender conceptos difíciles incluso para estudiantes universitarios. La realidad virtual hace posible, mediante la inclusión del estudiante en un escenario determinado, que el estudiante pueda ver y comprender determinados procesos físicos y/o matemáticos de una manera distinta a como se puede ver en un aula convencional.\\
 
-En \cite{ScienceSpace}, los autores hablan sobre la posibilidad de conseguir que estudiantes de instituto puedan comprender conceptos dif\'iciles incluso para estudiantes universitarios. La realidad virtual hace posible, mediante la inclusi\'on del estudiante en un escenario determinado, que el estudiante pueda ver y comprender determinados procesos f\'isicos y/o matem\'aticos de una manera distinta a como se puede ver en un aula convencional.\\
+Cómo se puede aprender mejor a calcular el empuje necesario para cambiar de órbita un objeto. Simplemente realizando cálculos en papel sin un gran objetivo aparente, o siendo parte de la tripulación de la Estación Espacial Internacional que se ve en la necesidad de cambiar de órbita la ISS porque un asteroide va a colisionar con tu nave.\\
 
-C\'omo se puede aprender mejor a calcular el empuje necesario para cambiar de \'orbita un objeto. Simplemente realizando c\'alculos en papel sin un gran objetivo aparente, o siendo parte de la tripulaci\'on de la Estaci\'on Espacial Internacional que se ve en la necesidad de cambiar de \'orbita la ISS porque un asteroide va a colisionar con tu nave.\\
-
-Esta capacidad inmersiva es tambi\'en centro de atenci\'on en \cite{Presence}. En el experimento realizado y explicado en este art\'iculo, se a\'isla al usuario tumb\'andolo en una cama y tap\'andole los ojos mediante unas gafas de realidad virtual. En las gafas, se proyecta una imagen cont\'inua del techo de la sala en la que se encuentra tumbado
+Esta capacidad inmersiva es también centro de atención en \cite{Presence}. En el experimento realizado y explicado en este artículo, se aísla al usuario tumbándolo en una cama y tapándole los ojos mediante unas gafas de realidad virtual. En las gafas, se proyecta una imagen contínua del techo de la sala en la que se encuentra tumbado
 
 \begin{itemize}
 \item Visi\'on
@@ -94,39 +79,33 @@ Esta capacidad inmersiva es tambi\'en centro de atenci\'on en \cite{Presence}. E
 \item sensaci\'on t\'ermica
 \end{itemize}
 
-En \cite{Presence}, los autores hablan de una preparaci\'on previa al uso de la experiencia desarrollada que implica estar acostado en una cama. Sin embargo, revisando bibliograf\'ia por internet, no hemos encontrado ning\'un estudio en el que se traten las ideas que planteamos.
+En \cite{Presence}, los autores hablan de una preparaci\'on previa al uso de la experiencia desarrollada que implica estar acostado en una cama. Sin embargo, revisando bibliografía por internet, no hemos encontrado ningún estudio en el que se traten las ideas que planteamos.
 
-En deportes, es bien conocido que antes de empezar la actividad deportiva es muy importante realizar un calentamiento que prepare a los m\'usculos para el esfuerzo que est\'a por llegar durante la pr\'actica deportiva. De esta manera se consigue reducir el riesgo de lesiones a la par que se prepara al cuerpo para obtener un rendimiento \'optimo durante el desarrollo de la pr\'actica deportiva.\\
+En deportes, es bien conocido que antes de empezar la actividad deportiva es muy importante realizar un calentamiento que prepare a los músculos para el esfuerzo que está por llegar durante la práctica deportiva. De esta manera se consigue reducir el riesgo de lesiones a la par que se prepara al cuerpo para obtener un rendimiento óptimo durante el desarrollo de la práctica deportiva.\\
 
- Siguiendo este ejemplo, nosotros nos hemos planteado las siguientes cuestiones. Es posible tambi\'en preparar a nuestro organismo para conseguir mejores resultados en el uso de las experiencias de realidad virtual? Se puede conseguir mejorar la capacidad de aprendizaje de nuestro cerebro para que al utilizar una aplicaci\'on de Realidad Virtual, este pueda conseguir los conocimientos perseguidos de una manera m\'as r\'apida y/o eficiente?
+Siguiendo este ejemplo, nosotros nos hemos planteado las siguientes cuestiones. Es posible también preparar a nuestro organismo para conseguir mejores resultados en el uso de las experiencias de realidad virtual? Se puede conseguir mejorar la capacidad de aprendizaje de nuestro cerebro para que al utilizar una aplicación de Realidad Virtual, este pueda conseguir los conocimientos perseguidos de una manera más rápida y/o eficiente?
 
 \section{Desarrollo}
-
-El desarrollo de la idea se podr\'ia dividir en 3 partes distintas:
+El desarrollo de la idea se podría dividir en 3 partes distintas:
 
 \begin{itemize}
 \item Encontrar una secuencia de estimulos que se puedan incluir al comienzo de una experiencia de realidad virtual que preparen el organismo del usuario.
-\item Implementaci\'on propiamente dicha, incluyendo la secuencia de est\'imulos encontrada al comienzo de experiencias de Realidad Virtual, pudiendo ser estas nuevas o utilizar aplicaciones ya realizadas y utilizadas con anterioridad.
-\item Estudiar los resultados obtenidos contrast\'andolos con grupos de control.
+\item Implementación propiamente dicha, incluyendo la secuencia de estímulos encontrada al comienzo de experiencias de Realidad Virtual, pudiendo ser estas nuevas o utilizar aplicaciones ya realizadas y utilizadas con anterioridad.
+\item Estudiar los resultados obtenidos contrastándolos con grupos de control.
 \end{itemize}
 
 \section{Resultados}
-Esperamos poder deducir unas pautas de preparaci\'on que permitan a los usuarios exprimir mucho m\'as eficientemente todas las capacidades de ocio y aprendizaje que nos ofrece la Realidad virtual.
+Esperamos poder deducir unas pautas de preparación que permitan a los usuarios exprimir mucho más eficientemente todas las capacidades de ocio y aprendizaje que nos ofrece la Realidad virtual.
 
-Se puede observar que la bibliograf\'ia presentada ha conseguido resultados positivos en la predisposici\'on del organismo.
+Se puede observar que la bibliografía presentada ha conseguido resultados positivos en la predisposición del organismo.
 
-
-Creemos que se puede conseguir poner todo los objetivos alcanzados en dichos estudios en com\'un y de esta manera conseguir que se puedan disfrutar y aprovechar mucho m\'as la aplicaciones de Realidad Virtual.
-
+Creemos que se puede conseguir poner todo los objetivos alcanzados en dichos estudios en común y de esta manera conseguir que se puedan disfrutar y aprovechar mucho más la aplicaciones de Realidad Virtual.
 
 \section{Conclusiones}
-
-Deber\'ia ser factible crear una experiencia de Realidad Virtual en la que el jugador pueda sentirse mucho m\'as inmerso utilizando algunas de las t\'ecnicas presentadas en los apartados anteriores de este trabajo. Si se consigue una sensaci\'on de inmersi\'on mayor, el usuario deber\'ia obtener una mayor satisfacci\'on al utilizar este tipo de aplicaciones y de esta manera, incluso se deber\'ia poder conseguir que los usuarios puedan aprender y dominar nuevos conceptos (incluso aquellos que pueden resultar muy complejos) de manera mucho m\'as divertida, eficiente y simple
+Debería ser factible crear una experiencia de Realidad Virtual en la que el jugador pueda sentirse mucho más inmerso utilizando algunas de las técnicas presentadas en los apartados anteriores de este trabajo. Si se consigue una sensación de inmersión mayor, el usuario debería obtener una mayor satisfacción al utilizar este tipo de aplicaciones y de esta manera, incluso se debería poder conseguir que los usuarios puedan aprender y dominar nuevos conceptos (incluso aquellos que pueden resultar muy complejos) de manera mucho más divertida, eficiente y simple
 
 \medskip
-
 \nocite{*}
 \printbibliography
 
 \end{document}
-
