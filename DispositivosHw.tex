@@ -33,6 +33,7 @@ sorting=ynt
 \pretitle{\begin{center}\Huge\bfseries} % Article title formatting
 \posttitle{\end{center}} % Article title closing formatting
 \title{Mejora en los resultados de la utilizaci\'on de aplicaciones de Realidad Virtual a trav\'es de la preparaci\'on sensorial previa} % Article title
+\providecommand{\keywords}[1]{\textbf{\textit{Keywords: }} #1}
 \author{%
 \textsc{Salguero, E. and Salamanca, I. and Ferrando, H.} \\% Your name
 \normalsize Universidad U-Tad \\ % Your institution
@@ -43,11 +44,17 @@ sorting=ynt
 
 \begin{abstract}
 \noindent En la actualidad, el uso de la Realidad Virtual se ha extendido mucho y se est\'a utilizando de manera asidua tanto para ocio como para formaci\'on. Una cuenti\'on abierta sobre la Realidad Virtual y las aplicaciones utilizadas en cualquiera de sus vertientes (pedag\'ogica, l\'udica\ldots) es si se podr\'i­a mejorar la experiencia y los resultados obtenidos de alguna manera. En este art\'i­culo exploramos un posible punto de partida en esta idea de mejorar los resultados utilizando como bases conocimientos ya documentados sobre la privaci\'on sensorial.
+
+\keywords{Realidad Virtual; preparaci\'on sensorial; aprendizaje}
+
 \end{abstract}
 }
 
 \begin{document}
 \fancyhead{} % clear all header fields
+
+\chead{Salguero, E. Salamanca, I. Ferrando, H. - M\'aster en Computaci\'on G\'afica y Simulaci\'on}
+
 
 \maketitle
 
@@ -58,17 +65,17 @@ Ser\'ia algo similar (marcando mucho las diferencias) a las secuencias cinem\'at
 
 Seg\'un un experimento realizado por Vernon y Hoffman en 1956 \cite{PrivacionSensorial} es posible predisponer al usuario para que aprenda de manera m\'as efectiva despu\'es de haber experimentado privaci\'on sensorial.
 
-Nuestra intenci\'on es analizar si esta idea de preparar al usuario tambi\'en se puede extender a la Realidad Virtual, pero en este caso, se tratar\'ia de predisponer a los sentidos del jugador para conseguir que sus sensaci\'on de presencia e inmersividad se vean incrementadas y en caso de ser el objetivo, conseguir m\'as r\'apidamente los conocimientos perseguidos.
+Nuestra intenci\'on es analizar si esta idea de preparar al usuario tambi\'en se puede extender a la Realidad Virtual, pero en este caso, se tratar\'ia de predisponer a los sentidos del jugador para conseguir que su sensaci\'on de presencia e inmersividad se vean incrementadas y en caso de ser el objetivo, conseguir m\'as r\'apidamente los conocimientos perseguidos.
 
 
 \section{Estado del Arte}
-En la actualidad, se han realizado multitud de estudios sobre los beneficios que est\'a aportando la realidad virtual en el aprendizaje. En este trabajo, nosotros incluimos  algunas referencias que tratan sobre este tema.
+En la actualidad, se han realizado multitud de estudios sobre los beneficios que est\'a aportando la Realidad Virtual en el aprendizaje. En este trabajo, nosotros incluimos  algunas referencias que tratan sobre este tema.
 
-En \cite{ScienceSpace}, los autores hablan sobre la posibilidad de conseguir que estudiantes de instituto puedan comprender conceptos dif\'iciles incluso para estudiantes universitarios. La realidad virtual hace posible, mediante la inclusi\'on del estudiante en un escenario determinado, que el estudiante pueda ver y comprender determinados procesos f\'isicos y/o matem\'aticos de una manera distinta a como se puede ver en un aula convencional. En este punto es donde la Realidad Virtual puede marcar m\'as la diferencia con otros m\'etodos o herramientas utilizados para el aprendizaje. Se puede conseguir que el estudiante est\'e presente en un escenario real o imaginario, pero completamente adaptado a los conceptos sobre los que se quiere trabajar. C\'omo se puede aprender mejor a calcular el empuje necesario para cambiar de \'orbita un satelite o una nave espacial? Simplemente realizando c\'alculos en papel sin un gran objetivo aparente, o siendo parte de la tripulaci\'on de la Estaci\'on Espacial Internacional que se ve en la necesidad de cambiar de \'orbita la ISS porque un asteroide va a colisionar con tu nave?
+En \cite{ScienceSpace}, los autores hablan sobre la posibilidad de conseguir que estudiantes de instituto puedan comprender conceptos dif\'iciles incluso para estudiantes universitarios. La Realidad Virtual hace posible, mediante la inclusi\'on del estudiante en un escenario determinado, que el estudiante pueda ver y comprender determinados procesos f\'isicos y/o matem\'aticos de una manera distinta a como se puede ver en un aula convencional. En este punto es donde la Realidad Virtual puede marcar m\'as la diferencia con otros m\'etodos o herramientas utilizados para el aprendizaje. Se puede conseguir que el estudiante est\'e presente en un escenario real o imaginario, pero completamente adaptado a los conceptos sobre los que se quiere trabajar. C\'omo se puede aprender mejor a calcular el empuje necesario para cambiar de \'orbita un satelite o una nave espacial? Simplemente realizando c\'alculos en papel sin un gran objetivo aparente, o siendo parte de la tripulaci\'on de la Estaci\'on Espacial Internacional que se ve en la necesidad de cambiar de \'orbita la ISS porque un asteroide va a colisionar con tu nave?
 
-La capacidad de inmersividad es tambi\'en centro de atenci\'on en \cite{Presence}. En el experimento realizado y explicado en este art\'i­culo, se a\'isla al usuario tumb\'andolo en una cama y tap\'andole los ojos mediante unas gafas de realidad virtual. En las gafas, se proyecta una imagen cont\'inua del techo de la sala en la que se encuentra tumbado.
+La capacidad de inmersividad es tambi\'en centro de atenci\'on en \cite{Presence}. En el experimento realizado y explicado en este art\'i­culo, se a\'isla al usuario tumb\'andolo en una cama y tap\'andole los ojos mediante unas gafas de Realidad Virtual. En las gafas, se proyecta una imagen cont\'inua del techo de la sala en la que se encuentra tumbado.
 
-En \cite{Presence}, los autores hablan de una preparaci\'on previa al uso de la experiencia desarrollada que implica estar acostado en una cama. Sin embargo, revisando bibliograf\'i­a por internet, no hemos encontrado ning\'un estudio en el que se traten las ideas que planteamos. Nuestra idea plantea que no s\'olo la visi\'on es el sentido sobre el que habr'\'ia que trabajar con el usuario. Ser\'ia necesario trabajar en tantos aspectos como fuera posible:
+En \cite{Presence}, los autores hablan de una preparaci\'on previa al uso de la experiencia desarrollada que implica estar acostado en una cama. Sin embargo, revisando bibliograf\'i­a por internet, no hemos encontrado ning\'un estudio en el que se traten las ideas que planteamos. Nuestra idea plantea que no s\'olo la visi\'on es el sentido sobre el que habr\'ia que trabajar con el usuario. Ser\'ia necesario trabajar en tantos aspectos como fuera posible:
 
 \begin{itemize}
 \item Visi\'on
@@ -82,26 +89,26 @@ En \cite{Presence}, los autores hablan de una preparaci\'on previa al uso de la 
 \item \ldots
 \end{itemize}
 
-Otras ideas y p\'acticas en las que basamos este trabajo es el el deporte por ejemplo. Es bien conocido que antes de empezar una actividad deportiva es muy importante realizar un calentamiento que prepare a los m\'usculos para el esfuerzo que est\'a por llegar durante la pr\'actica deportiva. Como primera idea puede parecer poco intuitiva, puesto que se va a realizar una actividad que someter\'ia al organismo a un desgaste inicial antes del desgaste necesario propiamente dicho. Sin embargo, de esta manera se consigue reducir el riesgo de lesiones a la par que se prepara al cuerpo para obtener un rendimiento \'optimo durante el desarrollo de la pr\'actica deportiva. En \cite{Preparation} llegan a una conclusi\'on parecida. Los ciclistas que preparaban sus entrenamientos con un programa de realidad virtual aumentaban su rendimiento debido a la inmersi\'on conseguida.
+Otras ideas y pr\'acticas en las que basamos este trabajo es el el deporte por ejemplo. Es bien conocido que antes de empezar una actividad deportiva es muy importante realizar un calentamiento que prepare a los m\'usculos para el esfuerzo que est\'a por llegar durante la pr\'actica deportiva. Como primera idea puede parecer poco intuitiva, puesto que se va a realizar una actividad que someter\'ia al organismo a un desgaste inicial antes del desgaste necesario propiamente dicho. Sin embargo, de esta manera se consigue reducir el riesgo de lesiones a la par que se prepara al cuerpo para obtener un rendimiento \'optimo durante el desarrollo de la pr\'actica deportiva. En \cite{Preparation} llegan a una conclusi\'on parecida. Los ciclistas que preparaban sus entrenamientos con un programa de Realidad Virtual aumentaban su rendimiento debido a la inmersi\'on conseguida.
 
-Como hemos dicho, hay muchas ideas y trabajos que avalan el uso de la realidad virtual mas all\'a del l\'udico. Seg\'un \cite{Army}, es indispensable usar realidad virtual para entrenar a soldados para mantener sistemas complejos, antes de usarlos de manera real.
+Como hemos dicho, hay muchas ideas y trabajos que avalan el uso de la Realidad Virtual mas all\'a del l\'udico. Seg\'un \cite{Army}, es indispensable usar Realidad Virtual para entrenar a soldados para mantener sistemas complejos, antes de usarlos de manera real.
 
-A raíz de todos los ejemplos que hemos comentado anteriormente, se entiende que la realidad virtual es una herramienta con una gran capacidad de mejorar el aprendizaje de nuevos sistemas, herramientas, \ldots Incluso la adquisici\'on de conocimiento propiamente dicho puede verse facilitada si utilizamos la realidad virtual de manera adecuada. Despu\'es de haber le\'ido sobre ello, nosotros nos hemos planteado las siguientes cuestiones. Es posible tambi\'en preparar a nuestro organismo para conseguir mejores resultados en el uso de las experiencias de realidad virtual? Se puede conseguir mejorar la capacidad de aprendizaje de nuestro cerebro para que al utilizar una aplicaci\'on de realidad virtual, este pueda conseguir los conocimientos perseguidos de una manera m\'as r\'apida y/o eficiente?
+A raíz de todos los ejemplos que hemos comentado anteriormente, se entiende que la Realidad Virtual es una herramienta con una gran capacidad de mejorar el aprendizaje de nuevos sistemas, herramientas, \ldots Incluso la adquisici\'on de conocimiento propiamente dicho puede verse facilitada si utilizamos la Realidad Virtual de manera adecuada. Despu\'es de haber le\'ido sobre ello, nosotros nos hemos planteado las siguientes cuestiones. Es posible tambi\'en preparar a nuestro organismo para conseguir mejores resultados en el uso de las experiencias de Realidad Virtual? Se puede conseguir mejorar la capacidad de aprendizaje de nuestro cerebro para que al utilizar una aplicaci\'on de Realidad Virtual, este pueda conseguir los conocimientos perseguidos de una manera m\'as r\'apida y/o eficiente?
 
 
 \section{Desarrollo}
 El desarrollo de la idea se podr\'ia dividir en 3 partes distintas:
 
 \begin{itemize}
-\item Encontrar una secuencia de est\'imulos que se puedan incluir al comienzo de una experiencia de realidad virtual que preparen el organismo del usuario.
+\item Encontrar una secuencia de est\'imulos que se puedan incluir al comienzo de una experiencia de Realidad Virtual que preparen el organismo del usuario.
 \item Implementaci\'on propiamente dicha, incluyendo la secuencia de est\'i­mulos encontrada al comienzo de experiencias de Realidad Virtual, pudiendo ser estas nuevas o utilizar aplicaciones ya realizadas y utilizadas con anterioridad.
 \item Estudiar los resultados obtenidos contrast\'andolos con grupos de control.
 \end{itemize}
 
 Crear entornos que son indistinguibles del mundo real y / o creando entornos que permiten a los usuarios experimentar mundos preconstruidos de manera artificial, se encuentran entre los problemas de diseño más complejos.
-Algunos factores que influyen en el diseño de software para entornos de realidad virtual incluyen comprender la perspectiva del usuario; aplicando apropiadamente las tecnologías habilitantes (por ejemplo, audio, dispositivos hápticos); y, facilitando la visión del diseñador. Los sistemas que involucrar al usuario  deben ser efectivos en la resolución del problema, y crear un ambiente donde el usuario quede inmerso. El sistema no solo debe responder a la entrada del usuario, sino también al espacio en el que se realizan las actividades que requieren manipulación. Todas estas actividades están sucediendo entiempo real y son interactiva, pudiendo ser incluso actividades multijugador y colaborativas. En todos los casos, el usuario ingresa en el entorno prefabricado y debe contar con los factores contextuales (por ejemplo, ambiente, claves sociales, herramientas) para funcionar de manera efectiva.
+Algunos factores que influyen en el diseño de software para entornos de Realidad Virtual incluyen comprender la perspectiva del usuario; aplicando apropiadamente las tecnologías habilitantes (por ejemplo, audio, dispositivos hápticos); y, facilitando la visión del diseñador. Los sistemas que involucrar al usuario  deben ser efectivos en la resolución del problema, y crear un ambiente donde el usuario quede inmerso. El sistema no solo debe responder a la entrada del usuario, sino también al espacio en el que se realizan las actividades que requieren manipulación. Todas estas actividades están sucediendo entiempo real y son interactiva, pudiendo ser incluso actividades multijugador y colaborativas. En todos los casos, el usuario ingresa en el entorno prefabricado y debe contar con los factores contextuales (por ejemplo, ambiente, claves sociales, herramientas) para funcionar de manera efectiva.
 
-Con el fin de estudiar las capacidades de la realidad virtual, de sus utilidades y sobre todo, la progresión de su desarrollo se puede focalizar el estudio en cinco áreas de importancia (tal y como los científicos Sweetser y Johson estudiaron en 2005): consistencia, intuición, libertad de expresión, nivel de inmersión, y la física del medio ambiente en lo que se refiere a la preferencia del tipo de juego y experiencia de juego. Una de las premisas que sostenían estos dos científicos era 'reiniciar' el proceso de aprendizaje, como si durante las primeras tomas de contacto entre el usuario y el entorno de realidad virtual, este volviese a los primeros años de su vida cuando aún no conocía muy bien el entorno en el que estaba actuando.
+Con el fin de estudiar las capacidades de la Realidad Virtual, de sus utilidades y sobre todo, la progresión de su desarrollo se puede focalizar el estudio en cinco áreas de importancia (tal y como los científicos Sweetser y Johson estudiaron en 2005): consistencia, intuición, libertad de expresión, nivel de inmersión, y la física del medio ambiente en lo que se refiere a la preferencia del tipo de juego y experiencia de juego. Una de las premisas que sostenían estos dos científicos era 'reiniciar' el proceso de aprendizaje, como si durante las primeras tomas de contacto entre el usuario y el entorno de Realidad Virtual, este volviese a los primeros años de su vida cuando aún no conocía muy bien el entorno en el que estaba actuando.
 
 Es importante también establecer unas limitaciones como las dimensiones físicas (tamaño y localización) y las perspectivas psicológicas (verse desde una perspectiva en tercera persona).  Uno de los experimentos hechos por la Agencia Espacial Canadiense era permitir que los astronautas en entrenamiento viesen sus actuaciones en tercera persona y pudiesen monitorizarlas. Además la entrada de los hápticos permitía observar, replicar e incluso experimentar maniobras realizadas por expertos con fines de aprendizaje.
 
